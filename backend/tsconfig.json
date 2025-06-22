@@ -8,6 +8,6 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "types": ["node"]       // <-- add this line
+    "types": ["node"]
   }
 }

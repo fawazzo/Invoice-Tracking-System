@@ -10,7 +10,7 @@ import { serve } from "@hono/node-server";
 const app = new Hono();
 // Enable CORS for all routes
 app.use('*', cors({
-  origin: 'http://localhost:5173', // ✅ allow frontend origin
+  origin: 'http://localhost:5173',
 }));
 app.route("/invoices", invoiceRoutes);
 
